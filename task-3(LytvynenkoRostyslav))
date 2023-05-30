@@ -8,6 +8,6 @@ namespace task-3(LytvynenkoRostyslav))
         {
             double a = Convert.ToDouble(Console.ReadLine());
             double h = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"S={0.5 * a * h}");
+            Console.WriteLine($"Площа S трикутника = {0.5 * a * h}");
         }
     }
