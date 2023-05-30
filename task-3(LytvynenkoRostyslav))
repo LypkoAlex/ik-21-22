@@ -1,0 +1,13 @@
+using System;
+
+namespace Task-3
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a = Convert.ToDouble(Console.ReadLine());
+            double h = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"S={0.5 * a * h}");
+        }
+    }
