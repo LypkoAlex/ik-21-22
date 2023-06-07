@@ -1,4 +1,14 @@
 merge test edited by o.lypko
+<<<<<<< HEAD
 I'm conflict
 Resolve me please
 rebase me
+edited one more time by o.lypko
+editing last time done by r.lytvynenko
+edited one more time by o.lypko
+=======
+edited one more time by o.lypko
+editing last time done by r.lytvynenko
+I'm conflict
+Resolve me please
+>>>>>>> fc65644a5cad9cac2341ce56c2f90f4c8e33fa3b
