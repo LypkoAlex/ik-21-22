@@ -1,0 +1,4 @@
+merge test edited by o.lypko
+I'm conflict
+Resolve me please
+rebase me
