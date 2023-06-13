@@ -1,0 +1,19 @@
+#include <iostream>
+
+double metersToMiles(double meters) {
+    const double metersInOneMile = 1609.34; // Кількість метрів в одній милі
+    return meters / metersInOneMile;
+}
+
+int main() {
+    double meters;
+
+    std::cout << "Введіть кількість метрів: ";
+    std::cin >> meters;
+
+    double miles = metersToMiles(meters);
+
+    std::cout << meters << " метрів дорівнює " << miles << " милям." << std::endl;
+
+    return 0;
+}
