@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+
+{
+
+std::cout << "Enter year: ";
+
+int year;
+
+std::cin >> year;
+
+if (year % 4 == 0)
+
+ std::cout << "Leap year! \n";
+
+else
+
+ std::cout << "Non-leap year! \n";
+
+return 0;
+
+}
