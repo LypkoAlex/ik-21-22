@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+double degreesToRadians(double degrees) {
+    return degrees * M_PI / 180.0;
+}
+
+int main() {
+    double degrees;
+    std::cout << "Введіть кількість градусів: ";
+    std::cin >> degrees;
+    
+    double radians = degreesToRadians(degrees);
+    std::cout << degrees << " градусів дорівнює " << radians << " радіанам." << std::endl;
+    
+    return 0;
+}
