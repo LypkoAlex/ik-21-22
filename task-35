@@ -1,0 +1,20 @@
+from datetime import date
+
+def calculate_age(birth_date):
+    today = date.today()
+    age = today.year - birth_date.year
+
+    if today.month < birth_date.month or (today.month == birth_date.month and today.day < birth_date.day):
+        age -= 1
+
+    return age
+
+birth_year = int(input("Введіть рік народження (наприклад, 1980): "))
+birth_month = int(input("Введіть місяць народження (наприклад, 5): "))
+birth_day = int(input("Введіть день народження (наприклад, 20): "))
+
+birth_date = date(birth_year, birth_month, birth_day)
+
+age = calculate_age(birth_date)
+
+print("Ваш вік:", age)
