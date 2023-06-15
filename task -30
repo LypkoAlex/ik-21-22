@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    double exchangeRate = 0.85;
+    double amount;
+    
+    std::cout << "Введіть кількість грошей: ";
+    std::cin >> amount;
+    
+    double convertedAmount = amount * exchangeRate;
+    
+    std::cout << "Конвертована сума: " << convertedAmount << std::endl;
+    
+    return 0;
+}
