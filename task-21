@@ -1,0 +1,30 @@
+#include <iostream>
+
+void convertMetersToFeetAndInches(double meters, int& feet, double& inches) {
+    const double inchesPerFoot = 12.0;
+    const double feetPerMeter = 3.28084;
+
+    // Конвертуємо метри в фут-фунти
+    double totalFeet = meters * feetPerMeter;
+
+    // Визначаємо цілу частину футів
+    feet = static_cast<int>(totalFeet);
+
+    // Визначаємо дюйми
+    inches = (totalFeet - feet) * inchesPerFoot;
+}
+
+int main() {
+    double meters;
+    std::cout << "Введіть кількість метрів: ";
+    std::cin >> meters;
+
+    int feet;
+    double inches;
+    convertMetersToFeetAndInches(meters, feet, inches);
+
+    std::cout << "Фут-фунти: " << feet << std::endl;
+    std::cout << "Дюйми: " << inches << std::endl;
+
+    return 0;
+}
