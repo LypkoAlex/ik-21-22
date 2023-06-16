@@ -3,21 +3,21 @@
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "");
+    
     double length, width, area;
 
     
-    cout << "Ââåä³òü äîâæèíó ïðÿìîêóòíèêà: ";
+    cout << "Ã‚Ã¢ÄºÃ¤Å‚ÅˆÃ¼ Ã¤Ã®Ã¢Ä‡ÄÃ­Ã³ ÄÄ‘Ë™Ä›Ã®Ä™Ã³ÅˆÃ­ÄÄ™Å•: ";
     cin >> length;
 
     
-    cout << "Ââåä³òü øèðèíó ïðÿìîêóòíèêà: ";
+    cout << "Ã‚Ã¢ÄºÃ¤Å‚ÅˆÃ¼ Å™ÄÄ‘ÄÃ­Ã³ ÄÄ‘Ë™Ä›Ã®Ä™Ã³ÅˆÃ­ÄÄ™Å•: ";
     cin >> width;
 
     
     area = length * width;
 
-    cout << "Ïëîùà ïðÿìîêóòíèêà: " << area << endl;
+    cout << "ÄŽÃ«Ã®Å¯Å• ÄÄ‘Ë™Ä›Ã®Ä™Ã³ÅˆÃ­ÄÄ™Å•: " << area << endl;
 
     return 0;
 }
