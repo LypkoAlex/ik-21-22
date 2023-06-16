@@ -7,17 +7,17 @@ int main() {
     double length, width, area;
 
     
-    cout << "Ââĺäłňü äîâćčíó ďđ˙ěîęóňíčęŕ: ";
+    cout << "Введіть довжину прямокутника: ";
     cin >> length;
 
     
-    cout << "Ââĺäłňü řčđčíó ďđ˙ěîęóňíčęŕ: ";
+    cout << "Введіть ширину прямокутника:: ";
     cin >> width;
 
     
     area = length * width;
 
-    cout << "Ďëîůŕ ďđ˙ěîęóňíčęŕ: " << area << endl;
+    cout << "Площа прямокутника: " << area << endl;
 
     return 0;
 }
